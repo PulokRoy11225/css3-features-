@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Overflow</title>
+  <style>
+    .box{
+      width: 300px;
+      height: 300px;
+      border: 3px solid slategrey;
+      overflow-y: auto;
+    }
+    /* #box-1{
+      overflow: scroll;
+      overflow-x: hidden;
+    } */
+    .ellipsis{
+      width: 200px;
+      border: 3px solid gainsboro;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      /* text-overflow: clip; */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <p title="I am a serious learner. I am investing 6-8 hours every single day." class="ellipsis">I am a serious learner. I am investing 6-8 hours every single day.</p>
+  </header>
+  <section>
+    <!-- .box*2>h3{My Text Box $}+p>lorem200 -->
+    <div id="box-1" class="box">
+      <h3>My Text Box 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum laborum provident nesciunt, numquam atque dignissimos corporis illum, sed porro nobis inventore quae quo! Sapiente omnis in illum. Debitis molestiae possimus suscipit placeat, ratione dicta, nam et dolorum tempore ex repellendus quod, adipisci iste libero rerum enim repudiandae? Aspernatur rerum modi tempora eaque hic maxime officiis mollitia obcaecati deleniti ratione quo, harum recusandae soluta dicta debitis natus quis porro voluptas sit ipsa. Quas rem ipsum et esse! Temporibus repudiandae voluptates, voluptatem saepe soluta placeat exercitationem ea commodi iste dignissimos earum unde rerum porro. Nostrum iure adipisci blanditiis consectetur error aspernatur et autem non soluta unde recusandae, delectus impedit repudiandae, ducimus fugiat labore quos amet numquam porro accusantium ratione? Reiciendis quam sequi, quaerat libero nam fugiat tempore eum est sed accusantium cupiditate molestias adipisci, nulla natus odit similique exercitationem quae deserunt modi qui aliquam. Id atque, iure culpa repellat porro libero, ut, omnis perspiciatis obcaecati eligendi blanditiis quasi nisi dignissimos dicta unde incidunt excepturi vel sed corrupti assumenda. Quibusdam ducimus, dolorem inventore sunt mollitia, delectus vitae minus corporis facere iste, molestiae quidem hic nemo natus. Fugiat voluptate alias consequuntur odit itaque totam, minima repellat delectus deleniti aut velit ipsam voluptates provident a!</p>
+    </div>
+    <div class="box">
+      <h3>My Text Box 2</h3>
+      <p>Perspiciatis, dolor nulla. Similique in obcaecati quisquam officiis. Magni earum, error aperiam cumque commodi ratione explicabo distinctio asperiores nesciunt nulla iusto atque totam ipsum quaerat similique omnis laborum? Animi cupiditate, dignissimos modi autem hic est quaerat totam vel exercitationem suscipit porro aperiam eos, incidunt repellat soluta beatae voluptatum temporibus commodi itaque numquam. Repellendus dolorum distinctio ea error architecto quaerat amet ducimus delectus tempore debitis necessitatibus impedit magnam sequi molestias animi voluptatibus, magni officia voluptates a nisi iste ab modi reiciendis totam. Minus quos corrupti eius facilis dolorem voluptas consequuntur sint voluptatem ex consectetur ab tenetur laboriosam aliquam molestias quisquam ipsam, perspiciatis ea vero beatae nisi magni officia debitis asperiores. Fugit neque, minus quaerat repellat dignissimos officiis repudiandae obcaecati commodi ab laudantium incidunt sed, perferendis consequatur. Dolor, distinctio perferendis. Officiis repudiandae accusamus ad? Eius odit enim illum quasi dicta animi ea accusamus doloremque harum, ad nostrum dolor, perspiciatis repellat pariatur architecto! Ad odit ullam architecto labore. Dicta quidem, similique esse fugit ex ea alias est totam excepturi id non sunt, fugiat dolores quam praesentium vero eos aspernatur tempora. Laborum consectetur aspernatur quasi assumenda debitis mollitia earum nostrum, exercitationem tempore harum cumque aperiam, eligendi ea quam perferendis praesentium ad reiciendis porro. Est!</p>
+    </div>
+  </section>
+</body>
+</html>
